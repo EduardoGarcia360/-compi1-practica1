@@ -9,3 +9,9 @@ c:\users\eduardo garcia\documents\visual studio 2013\Projects\[compi1] practica1
 c:\users\eduardo garcia\documents\visual studio 2013\Projects\[compi1] practica1\[compi1] practica1\obj\Debug\[compi1] practica1.exe
 c:\users\eduardo garcia\documents\visual studio 2013\Projects\[compi1] practica1\[compi1] practica1\obj\Debug\[compi1] practica1.xml
 c:\users\eduardo garcia\documents\visual studio 2013\Projects\[compi1] practica1\[compi1] practica1\obj\Debug\[compi1] practica1.pdb
+C:\Users\Eduardo Garcia\documents\visual studio 2013\Projects\[compi1] practica1\[compi1] practica1\obj\Debug\_compi1__practica1.Juego.resources
+C:\Users\Eduardo Garcia\documents\visual studio 2013\Projects\[compi1] practica1\[compi1] practica1\bin\Debug\Interop.WMPLib.dll
+C:\Users\Eduardo Garcia\documents\visual studio 2013\Projects\[compi1] practica1\[compi1] practica1\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\Eduardo Garcia\documents\visual studio 2013\Projects\[compi1] practica1\[compi1] practica1\obj\Debug\Interop.WMPLib.dll
+C:\Users\Eduardo Garcia\documents\visual studio 2013\Projects\[compi1] practica1\[compi1] practica1\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\Eduardo Garcia\documents\visual studio 2013\Projects\[compi1] practica1\[compi1] practica1\obj\Debug\[compi1] practica1.vbproj.ResolveComReference.cache

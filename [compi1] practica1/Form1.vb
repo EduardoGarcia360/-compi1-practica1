@@ -94,7 +94,17 @@ Public Class Form1
     End Sub
 
     Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
-        MyParser.mo()
+        'MyParser.mo()
+        rtbxcodigo.Clear()
+        ListBox1.Items.Clear()
+        Try
+            lista_errores_lexicos.Clear()
+            lista_errores_sintacticos.Clear()
+        Catch ex As Exception
+
+        End Try
+        Juego.Show()
+        Me.Close()
 
     End Sub
 End Class
