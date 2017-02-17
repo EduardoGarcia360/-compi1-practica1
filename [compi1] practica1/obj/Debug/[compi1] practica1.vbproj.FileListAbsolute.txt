@@ -1,0 +1,11 @@
+c:\users\eduardo garcia\documents\visual studio 2013\Projects\[compi1] practica1\[compi1] practica1\bin\Debug\[compi1] practica1.exe.config
+c:\users\eduardo garcia\documents\visual studio 2013\Projects\[compi1] practica1\[compi1] practica1\bin\Debug\[compi1] practica1.exe
+c:\users\eduardo garcia\documents\visual studio 2013\Projects\[compi1] practica1\[compi1] practica1\bin\Debug\[compi1] practica1.pdb
+c:\users\eduardo garcia\documents\visual studio 2013\Projects\[compi1] practica1\[compi1] practica1\bin\Debug\[compi1] practica1.xml
+c:\users\eduardo garcia\documents\visual studio 2013\Projects\[compi1] practica1\[compi1] practica1\obj\Debug\[compi1] practica1.vbprojResolveAssemblyReference.cache
+c:\users\eduardo garcia\documents\visual studio 2013\Projects\[compi1] practica1\[compi1] practica1\obj\Debug\_compi1__practica1.Form1.resources
+c:\users\eduardo garcia\documents\visual studio 2013\Projects\[compi1] practica1\[compi1] practica1\obj\Debug\_compi1__practica1.Resources.resources
+c:\users\eduardo garcia\documents\visual studio 2013\Projects\[compi1] practica1\[compi1] practica1\obj\Debug\[compi1] practica1.vbproj.GenerateResource.Cache
+c:\users\eduardo garcia\documents\visual studio 2013\Projects\[compi1] practica1\[compi1] practica1\obj\Debug\[compi1] practica1.exe
+c:\users\eduardo garcia\documents\visual studio 2013\Projects\[compi1] practica1\[compi1] practica1\obj\Debug\[compi1] practica1.xml
+c:\users\eduardo garcia\documents\visual studio 2013\Projects\[compi1] practica1\[compi1] practica1\obj\Debug\[compi1] practica1.pdb
