@@ -30,8 +30,13 @@ Partial Class Juego
         Me.btnsiguiente = New System.Windows.Forms.Button()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.wmpFondo = New AxWMPLib.AxWindowsMediaPlayer()
+        Me.lblvida = New System.Windows.Forms.Label()
+        Me.lblataque = New System.Windows.Forms.Label()
+        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
+        Me.Label1 = New System.Windows.Forms.Label()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.wmpFondo, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'lbltitulo
@@ -56,7 +61,7 @@ Partial Class Juego
         '
         'btnanterior
         '
-        Me.btnanterior.Location = New System.Drawing.Point(112, 420)
+        Me.btnanterior.Location = New System.Drawing.Point(58, 457)
         Me.btnanterior.Name = "btnanterior"
         Me.btnanterior.Size = New System.Drawing.Size(75, 23)
         Me.btnanterior.TabIndex = 3
@@ -65,7 +70,7 @@ Partial Class Juego
         '
         'btnseleccionar
         '
-        Me.btnseleccionar.Location = New System.Drawing.Point(251, 420)
+        Me.btnseleccionar.Location = New System.Drawing.Point(251, 457)
         Me.btnseleccionar.Name = "btnseleccionar"
         Me.btnseleccionar.Size = New System.Drawing.Size(75, 23)
         Me.btnseleccionar.TabIndex = 4
@@ -74,7 +79,7 @@ Partial Class Juego
         '
         'btnsiguiente
         '
-        Me.btnsiguiente.Location = New System.Drawing.Point(400, 420)
+        Me.btnsiguiente.Location = New System.Drawing.Point(429, 457)
         Me.btnsiguiente.Name = "btnsiguiente"
         Me.btnsiguiente.Size = New System.Drawing.Size(75, 23)
         Me.btnsiguiente.TabIndex = 5
@@ -100,13 +105,56 @@ Partial Class Juego
         Me.wmpFondo.TabIndex = 7
         Me.wmpFondo.Visible = False
         '
+        'lblvida
+        '
+        Me.lblvida.AutoSize = True
+        Me.lblvida.Font = New System.Drawing.Font("Calibri", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblvida.ForeColor = System.Drawing.Color.White
+        Me.lblvida.Location = New System.Drawing.Point(93, 417)
+        Me.lblvida.Name = "lblvida"
+        Me.lblvida.Size = New System.Drawing.Size(0, 29)
+        Me.lblvida.TabIndex = 8
+        '
+        'lblataque
+        '
+        Me.lblataque.AutoSize = True
+        Me.lblataque.Font = New System.Drawing.Font("Calibri", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblataque.ForeColor = System.Drawing.Color.White
+        Me.lblataque.Location = New System.Drawing.Point(365, 417)
+        Me.lblataque.Name = "lblataque"
+        Me.lblataque.Size = New System.Drawing.Size(0, 29)
+        Me.lblataque.TabIndex = 9
+        '
+        'PictureBox2
+        '
+        Me.PictureBox2.Location = New System.Drawing.Point(13, 169)
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.Size = New System.Drawing.Size(39, 101)
+        Me.PictureBox2.TabIndex = 10
+        Me.PictureBox2.TabStop = False
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.ForeColor = System.Drawing.Color.White
+        Me.Label1.Location = New System.Drawing.Point(-1, 132)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(59, 19)
+        Me.Label1.TabIndex = 11
+        Me.Label1.Text = "Disparo"
+        '
         'Juego
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.Black
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
-        Me.ClientSize = New System.Drawing.Size(559, 472)
+        Me.ClientSize = New System.Drawing.Size(559, 492)
+        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.PictureBox2)
+        Me.Controls.Add(Me.lblataque)
+        Me.Controls.Add(Me.lblvida)
         Me.Controls.Add(Me.wmpFondo)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.btnsiguiente)
@@ -118,6 +166,7 @@ Partial Class Juego
         Me.Text = "Juego"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.wmpFondo, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -129,4 +178,8 @@ Partial Class Juego
     Friend WithEvents btnsiguiente As System.Windows.Forms.Button
     Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
     Friend WithEvents wmpFondo As AxWMPLib.AxWindowsMediaPlayer
+    Friend WithEvents lblvida As System.Windows.Forms.Label
+    Friend WithEvents lblataque As System.Windows.Forms.Label
+    Friend WithEvents PictureBox2 As System.Windows.Forms.PictureBox
+    Friend WithEvents Label1 As System.Windows.Forms.Label
 End Class

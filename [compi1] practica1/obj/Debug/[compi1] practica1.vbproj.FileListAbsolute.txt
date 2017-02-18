@@ -15,3 +15,4 @@ C:\Users\Eduardo Garcia\documents\visual studio 2013\Projects\[compi1] practica1
 C:\Users\Eduardo Garcia\documents\visual studio 2013\Projects\[compi1] practica1\[compi1] practica1\obj\Debug\Interop.WMPLib.dll
 C:\Users\Eduardo Garcia\documents\visual studio 2013\Projects\[compi1] practica1\[compi1] practica1\obj\Debug\AxInterop.WMPLib.dll
 C:\Users\Eduardo Garcia\documents\visual studio 2013\Projects\[compi1] practica1\[compi1] practica1\obj\Debug\[compi1] practica1.vbproj.ResolveComReference.cache
+C:\Users\Eduardo Garcia\documents\visual studio 2013\Projects\[compi1] practica1\[compi1] practica1\obj\Debug\_compi1__practica1.SpaceInvaders.resources

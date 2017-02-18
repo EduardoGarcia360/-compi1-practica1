@@ -17,7 +17,7 @@ Module MyParser
     Dim lista_error_lexico As New List(Of String)
     Dim lista_error_sintactico As New List(Of String)
 
-    Dim codigo_correcto As Boolean = False
+    'Dim codigo_correcto As Boolean = False
 
     Private Parser As New GOLD.Parser
 
@@ -245,7 +245,7 @@ Module MyParser
                         MsgBox("Hay errores en el codigo.")
                     Else
                         MsgBox("Codigo escrito correctamente." + vbNewLine + "Puedes iniciar el juego.")
-                        codigo_correcto = True
+                        'codigo_correcto = True
                     End If
 
                 Case ProductionIndex.Areas
@@ -524,6 +524,7 @@ Module MyParser
 
         Return Result
     End Function
+
     Public Function retornar_escenarios() As List(Of String)
         Return lista_escenario
     End Function
